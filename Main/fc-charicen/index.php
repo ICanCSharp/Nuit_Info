@@ -87,25 +87,14 @@
 									</li>
 								</ul>
 							</div>	
-						
-							
-							
 							<div class="col-md-4">
-									<?php
-										if(isset($_SESSION['pseudo'])){ 
-												echo 'Bonjour ' . $_SESSION['pseudo'] . ' bienvenue';
-										}
-
-										if(isset($_GET['co'])){
-										
-												echo 'Erreur de connexion';
-											
-									
-										}
-							?>
 								<ul class="social-icons">
 									<li><a class="facebook" href="https://www.facebook.com/PoliceNationale/"><i class="fa fa-facebook"></i></a></li>
 									<li><a class="twitter" href="https://twitter.com/policenationale?lang=en"><i class="fa fa-twitter"></i></a></li>
+									<li>	<img src="images/homme.gif" alt=""></li>
+									<li>	<img  width="50" src="images/etoileVide.png" alt="" style="margin-right: 30px;"></li>
+									<li>	<img  width="50" src="images/etoileVide.png" alt="" style="margin-right: 30px;"></li>
+									<li>	<img  width="50" src="images/etoileVide.png" alt="" style="margin-right: 30px;"></li>
 								</ul>
 							</div>	
 						</div>
@@ -113,15 +102,17 @@
 				</div>
 				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
+
 					
+	
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div style="margin-lift:500px" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a class="active" href="index.php">Accueil</a></li>
+							<li><a class="active" href="index.php">Acceuil</a></li>
 							<li><a href="inscription.php">Inscription</a></li>
-							<li><a href="formulaireEvent.php">Signaler Evènements</a></li>
-							<li><a href="Event.php">Voir Evènements</a></li>
+							<li><a href="formulaireEvent.php">Signaler Evenements</a></li>
+							<li><a href="Event.php">Voir Evenements</a></li>
 							<li><a href="inscription.php">Inscription</a></li>
 							<li class="search"><a href="#" class="open-search"><i class="fa fa-search"></i></a>
 								<li><p style="color:#18E08B"><a href=# style="color:#18E50B">Contact</a></p></li>
@@ -208,13 +199,13 @@
 								<p>
 						      .
 					</p>
-								<input name="password" id="password" type="password" placeholder="Password">
+								<input name="password" id="password" type="text" placeholder="Passeword">
 								</div>
 					<div class="col-md-4">
 							<p>
 						      .
 					</p>
-								<input type="submit" value="Send Message">
+								<input style="background-color:#555;" type="submit" id="submit_contact" value="Send Message">
 							</div>
 			</div>
 			</form>

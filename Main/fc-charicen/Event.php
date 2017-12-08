@@ -225,7 +225,7 @@ table {
 						<ul class="nav navbar-nav navbar-right">
 							<li><a class="active" href="index.php">Accueil</a></li>
 							<li><a href="inscription.php">Inscription</a></li>
-							<li><a href="Formulaire_Event.php">Signaler Evènements</a></li>
+							<li><a href="formulaireEvent.php">Signaler Evènements</a></li>
 							<li><a href="Event.php">Voir Evènements</a></li>
 							<li><a href="inscription.php">Inscription</a></li>
 							<li class="search"><a href="#" class="open-search"><i class="fa fa-search"></i></a>

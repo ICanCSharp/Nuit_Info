@@ -35,7 +35,8 @@ table {
  border-color:white;
  }
 	body {
-	background-image:url(images/paysage.jpg);
+	background-color:white;
+	background-image:url(images/securoute.jpg);
 	background-repeat:no-repeat;
 	background-size:100%;
 	}
@@ -143,7 +144,7 @@ table {
 						<ul class="nav navbar-nav navbar-right">
 							<li><a class="active" href="index.php">Accueil</a></li>
 							<li><a href="inscription.php">Inscription</a></li>
-							<li><a href="Formulaire_Event.php">Signaler Evènements</a></li>
+							<li><a href="formulaireEvent.php">Signaler Evènements</a></li>
 							<li><a href="Event.php">Voir Evènements</a></li>
 							<li><a href="inscription.php">Inscription</a></li>
 							<li class="search"><a href="#" class="open-search"><i class="fa fa-search"></i></a>
